@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class TiposPrimitivos {
+public class TiposPrimitivos5 {
 
 	public static void main(String[] args) {
 		// Informações do funcionario

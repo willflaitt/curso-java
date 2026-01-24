@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class NotacaoPonto {
+public class NotacaoPonto6 {
 	
 	public static void main(String[] args) {
 		
@@ -23,5 +23,6 @@ public class NotacaoPonto {
 		// Tipos primitivos não tem o operador "."
 		int a = 3;
 		System.out.println(a);
+//		System.out.println(a.); // não rola!!!
 	}
 }
