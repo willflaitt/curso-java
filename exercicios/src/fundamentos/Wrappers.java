@@ -1,5 +1,7 @@
 package fundamentos;
 
+import java.util.Scanner;
+
 public class Wrappers {
 
 	public static void main(String[] args) {
@@ -7,8 +9,14 @@ public class Wrappers {
 		// byte
 		Byte b = 100;
 		Short s = 1000;
-
-		// Integer.parseInt(entrada.next());
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int intrada = Integer.parseInt(entrada.next());
+		System.out.println("Integer I = Integer.parseInt(scan.next());: " + intrada);
+		
+		entrada.close();
+		
 		Integer i = 10000; // int
 		Long l = 100000L;
 
